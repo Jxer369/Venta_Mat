@@ -1,0 +1,378 @@
+
+h3{
+
+   border:rgb(255, 217, 0) 3px solid ;
+   font-size: 30px;
+   color:#11182d ;
+   font-style: inherit;
+   text-decoration:wavy;
+   text-align:center;
+   background-color:rgba(255, 255, 255, 0.658);
+   transition: all 1.5s ease;
+   font-family:Bebas Neue;                                                   
+   
+}/*^Fin estilos de head*/
+
+h2{
+
+   border:rgb(138, 7, 7) 3px solid ;
+   font-size: 50px;
+   color:#11212D ;
+   font-style: inherit;
+   text-decoration:wavy;
+   margin-left: 25px;
+   margin-right: 25px;
+   text-align:left;
+   background-color:rgba(255, 255, 255, 0.658);
+   transition: all 1.5s ease;
+   font-family:Bebas Neue;                                                   
+   
+}/*^Fin estilos de head*/
+
+
+h1{
+   border:rgb(138, 7, 7) 3px solid ;
+   font-size: 75px;
+   color:#000000 ;
+   font-style: inherit;
+   text-decoration:wavy;
+   transition: all 1.5s ease;
+   margin-left: 25px;
+   text-align:center;
+   background-color:rgba(255, 255, 255, 0.658);
+   font-family:Bebas Neue;
+
+}/*^Fin estilos de head*/
+
+html{
+   background-color:#CCD0CF;
+  scroll-behavior: smooth;
+  transition: all 1.5s ease;
+}
+
+.cajasMat{
+   display: flex;
+   transition: 0.5s;
+}
+.cajasut{
+   display: flex;
+transition: 0.5s;
+}
+
+.cajasMaq{
+   position:relative; ;
+
+   height: 250px ;
+   width: 250px ;
+  
+   transition: 0.5s;
+}
+
+.contenedor{
+   display: flex;
+   justify-content: center;
+}
+
+.exp{
+   display: flex;
+   text-align: center;
+   font-style:inherit;
+   font-family: Bebas Neue;
+
+}
+
+.cajamadre{
+   display: flex;
+   border-radius: 25px;
+   background-color: #7392a9;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+   margin-left: 35px;
+   margin-right: 35px;
+   gap: 10px;
+   transition: 1.5s;
+}
+
+.cajawebs{
+   display: flex;
+   margin-top: 35px;
+   margin-left: 35px;
+   margin-right: 35px;
+   background-color: #ffffff;
+   flex-direction: row;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+   
+}
+
+.fotim{
+   display: flex;
+   gap: 20px   ;
+   background-color: #ffffff;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+   flex-basis: 40%
+   
+   
+   
+}
+.cajexp{
+  padding: 40PX;
+   justify-content: right;
+   box-shadow: 0 0px 20px 5px #585858 ;
+   background-color: #9babab;
+   gap: 40%;
+   flex-basis: 40%
+   
+}
+
+.objr{
+   display: flex;
+   font-size: 40px;
+   color: #ffffff;
+   text-align: center;
+   font-style:inherit;
+  
+   font-family: Bebas Neue;
+
+
+
+}
+
+.titulo{
+   margin-left: 30px;
+   margin-right: 30px;
+   width: fit-content;
+   display: flex;
+   background-color: #ffffff00;
+   flex-direction: row;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+}
+
+.botoncom{
+   background-color:#4A5C6A;
+   height: 50px;
+   width: 50px;
+   display: flex;
+}
+.colorbot{
+   margin-right: 30%;
+   display: flex;
+   text-align: center;
+   font-style:inherit;
+   font-family: Bebas Neue;
+   color: #ffffff;
+}
+
+.box{
+   display: grid;
+   grid-template-columns: 15vw 70vw 10vw;
+   row-gap: 25px;
+}
+
+.boxchild{
+   background-color: rgba(72, 124, 235, 0);
+   width: clamp( 15px, 200%,100%);
+   align-items: center;
+   padding: 10px;
+}
+
+.logo{
+   display: flex;
+   
+   margin-top: 50px ;
+   justify-content: center;
+   align-items: center;
+}
+.imgn{
+   border-radius: 50px;
+}
+
+.cajasMaq:hover{
+  
+   box-shadow: 0PX 0PX 20PX 5PX  #191d33c5;
+   background-color: #3b586e  ;
+   border-radius: 20px;
+   transform:  scale(1.25);
+   transition: 0.5s;
+}
+
+.cajasut:hover{
+  
+   box-shadow: 0PX 0PX 20PX 5PX  #191d33c5;
+   background-color: #3b586e ;
+   border-radius: 20px;
+   transform:  scale(1.15);
+   transition: 0.5s;
+}
+.cajasMat:hover{
+  
+   box-shadow: 0PX 0PX 20PX 5PX  #191d33c5;
+   background-color: #3b586e  ;
+   border-radius: 20px;
+   transform:  scale(1.15);
+   transition: 0.5s;
+}
+.nombreMat{
+   position: absolute;
+   bottom: -25px;
+   transform: translateX();
+   opacity: 0;
+   transition: 0.7s;
+
+}
+.nombreMaq{
+   position: absolute;
+
+   bottom: -25px;
+   transform: translateX();
+   opacity: 0;
+   transition: 0.7s;
+
+}
+.nombresut{
+ 
+   position: absolute;
+   bottom: -25px;
+   transform: translateX();
+   opacity: 0;
+   transition: 0.7s;
+
+} 
+.cajasMaq:hover .nombreMaq{
+   opacity: 1;
+}
+.cajasut:hover .nombresut{
+   opacity: 1;
+}
+.cajasMat:hover .nombreMat{
+   opacity: 1;
+}
+
+.botoncom:hover{
+   transform: scale(2);
+}
+
+.cajamadre:hover{
+   box-shadow: 0PX 0PX 10PX 5PX  #356a76;
+   transition: 0.3s;
+}
+.box2{
+   
+   display: grid;
+   grid-template-columns: 85vw 5vw ;
+
+   
+}
+.boxchild2{
+   width: clamp( 10px, 90%,100%);
+   align-items: center;
+   padding: 1px;
+}
+
+.carrito{
+   margin-top: 50px ;
+   justify-content: center;
+   align-items: center;
+}  
+/*-webkit-text-stroke: 3px #11212D;*/
+
+.inicio2{
+   margin-top: 40%;
+  cursor: pointer;
+  position: fixed;
+}
+
+
+
+/*JAVA SCRIPT*/
+.nochee{
+   color: rgb(255, 255, 255) !important;
+   background-color: #0c1822!important;
+   border-color: #1d2429 !important ;
+   border:rgb(255, 255, 255) 3px solid !important ; 
+   transition: all 1.5s ease;
+}
+
+.fondo_mn{
+   background-color: #041a36d0 !important;
+   transition: all 1.5s ease;
+}
+
+.titu{
+ background-color: #11212D;
+ transition: all 1.5s ease;
+}
+
+.MODOD{
+   margin-top: 30%;
+   font-size: 2em;
+   position: fixed;
+   cursor:pointer ;
+}
+
+.MODON{
+   font-size: 2em;
+   margin-top: 20%;
+   position: fixed;
+   cursor:pointer ;
+}
+
+body{
+transition: 1.5s;
+}
+#toggle{
+    display: none;
+}
+#label_toggle{
+   margin-top: 30%;
+    position: fixed;
+    cursor: pointer;
+}
+
+.objt{
+   align-items: center;
+   background-color: #85929b;
+}
+
+
+.cajamadreN{
+   display: flex;
+   border-radius: 25px;
+   background-color:  #4a5c6a;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:center;
+   margin-left: 35px;
+   margin-right: 35px;
+   gap: 10px;
+   transition: 1.5s;
+   
+}
+
+.bot{
+   width: 50px;
+   background-color: rgba(235, 192, 0, 0.932);
+   color: #000000;
+   height: 50px;
+   opacity: 0;
+   transition: 1.5;
+}
+.cajabot{
+   transition: 1.5;
+}
+
+.cajasMaq:hover .bot{
+   opacity: 1;
+}
+.cajasut:hover .bot{
+   opacity: 1;
+}
+.cajasMat:hover .bot{
+   opacity: 1;
+}
